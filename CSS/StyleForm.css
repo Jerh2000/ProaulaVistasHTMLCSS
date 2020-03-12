@@ -1,0 +1,153 @@
+.Form-Register {
+    width: 90%;
+    padding: 30px;
+    margin: auto;
+    margin-top: 70px;
+    border-radius: 4px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: -webkit-linear-gradient(top, #009881, #5C6EB6);
+}
+
+.Form-Register div {
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: solid 1px;
+}
+
+.Style-Form {
+    width: 50%;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    opacity: 0.7;
+    border-color: gray;
+}
+
+.Form-Photo {
+    position: relative;
+    height: 500px;
+    width: 15%;
+    display: block;justify-content: center;align-items: flex-start;
+}
+
+.Form-Text {
+    position: relative;
+    height: 500px;
+    width: 25%;
+}
+
+.Form-Text textarea {
+    opacity: 0.7;
+    border-radius: 30px;
+    padding-left: 8px;
+    position: relative;
+    left: 17px;
+}
+
+.Form-Left {
+    position: relative;
+    float: left;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.Form-Right {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    width: 30%;
+    height: 500px;
+}
+
+.container {
+    width: 90%;
+    padding-right: 9px;
+    padding-left: 9px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 56px;
+    border-radius: 20px;
+    border: 1px solid #009881;
+    position: absolute;
+    left: 10%;
+    background: -webkit-linear-gradient(top, #61a79c, rgb(144, 153, 189));
+    border-radius: 0px 0px 20px 20px;
+}
+
+.Head-Form {
+    position: absolute;
+    left: 10%;
+    border-radius: 20px 20px 0px 0px;
+    display: flex;
+    width: 83.5%;
+    margin-top: 25px;
+    background-color: #009881;
+    padding-top: 0px;
+    margin-bottom: 0px;
+}
+
+.Head-Form h1 {
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-left: 15px;
+}
+
+.Buttom {
+    color: white;
+    border: none;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    font-family: Helvetica, sans-serif;
+    background: -webkit-linear-gradient(top, #009881, #5C6EB6);
+}
+button:hover{
+    background: #009881;
+}
+
+/* .Div-Form-One{
+    float: left;
+    width: 10%;
+    margin: auto;
+}
+.Div-Form-Two-Three{
+    float: left;
+    width: 30%;
+    margin: auto;
+}
+.Div-Form-Four{
+    float: left;
+    width: 30%;
+    margin: auto;
+}
+/* .Div-Form-Center{
+    margin-left: 80px;
+    margin-right: 80px;
+    float: right;
+    width: 40%;
+    margin: auto;
+}
+.Div-Form-Right{
+    margin-left: 80px;
+    margin-right: 80px;
+    float: right;
+    width: 40%;
+    margin: auto;
+} */
+
+/* .Div-Form-Bottom{
+    width: 60%;
+    float: none;
+    margin-left: 80px; 
+    
+}*/
