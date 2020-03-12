@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AMAPA</title>
+    <link rel="stylesheet" href="../CSS/headerStyle.css">
+    <link rel="stylesheet" href="../Bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../CSS/headerStyle.css">
+    <link rel="stylesheet" href="../CSS/StyleForm.css">
+</head>
+
+<body>
+    <!--Barra de navegación-->
+    <span class="pos" style="z-index: 0;">
+        <div id="Menu-Registro-Paciente">
+            <nav>
+                <ul id="menu">
+                    <li><a class="active" href="#"><img src="../IMAGES/Icons/Home-Icon.png" alt="Inicio"> Inicio</a>
+                    </li>
+                    <li><a href="#"><img src="../IMAGES/Icons/Myson.png" alt="Mihijo"> Mi hijo</a></li>
+                    <li><a href="#"><img src="../IMAGES/Icons/Activity-Black.png" alt="Activity" > Gestión de
+                            actividades</a>
+                        <ul>
+                            <li><a href="#">Link 1sadsdsds</a></li>
+                            <li><a href="#">Link 2sdsdsdsd</a></li>
+                        </ul>
+                    </li>
+                    </<li>
+                    <li><a href="#"><img src="../IMAGES/Icons/report-Black.png" alt="Reportes"> Reportes</a></li>
+                    <li><a href="#"><img src="../IMAGES/Icons/Resource-Black.png" alt="Recursos"> Recursos</a></li>
+                    <li><a href="#"><img src="../IMAGES/Icons/Contatc-Black.png" alt="Contactanos"> Contactanos</a></li>
+                    <li><input type="text" placeholder="Buscar..." class="style-input-search"> </<input>
+                    </li>
+                    <span class="pos">
+                        <li><input type="image" src="../IMAGES/Icons/Notification-On-1.png" alt="Notificaciones"
+                                id="Icon-Notification"></<input>
+                        </li>
+                        <li><input type="image" src="../IMAGES/Icons/Message-Icon-1.png" alt="Message"
+                                id="Icon-Message"></li>
+                        <li><input type="image" src="../IMAGES/Icons/User-Icon.png" alt="Message" id="Icon-User"></li>
+                        <li style="margin-left: 20px;"><a href="#">User<input type="image"
+                                    src="../IMAGES/Icons/Option-Icon.png" alt="Down" id="Icon-Down"></a></li>
+                    </span>
+                </ul>
+            </nav>
+        </div>
+    </span>
+
+
+    <!--Formulario-->
+    <div>
+        <div class="Head-Form">
+            <h1>CREAR PERFIL DE MI HIJO</h1>
+        </div>
+        <div class="container">
+
+            <div class="Form-Photo">
+                <div style="width: 100%;display: flex;justify-content: center;align-items: center; padding-top: 0px;">
+                    <img src="../IMAGES/Icons/User-Picture.png" alt="Profile">
+                </div>
+                <div style="width: 100%;display: flex;justify-content: center;align-items: center; padding-top: 0px;">
+                    <button class="Buttom" style="width: 130px;">Cambiar foto</button>
+                </div>
+            </div>
+            <div class="Form-Left">
+                <input class="Style-Form" style="float: left;" type="text" name="nombre" id=""
+                    placeholder="Ingrese un nombre...">
+                <input class="Style-Form" style="float: left;" type="text" name="apellidos" id=""
+                    placeholder="Ingrese sus apellidos...">
+
+                <select class="Style-Form" style="float: left;" name="TipoDoc" id="" placeholder="Tipo de documento:">
+                    <option value="TD" disabled selected>TIPO DE DOCUMENTO</option>
+                    <option value="TI">Tarjeta Identidad</option>
+                    <option value="RC">Registro Civil</option>
+                </select>
+                <input class="Style-Form" style="float: left;" type="text" name="NumeroDoc" id=""
+                    placeholder="Ingrese el número de documento...">
+
+                <font style="font-family: Helvetica, sans-serif; float: left; padding-top: 7px;">Fecha de Nacimiento:
+                </font><input class="Style-Form" style="width: 175px; float: left;" type="date" name="FechaNac"><br>
+                <input class="Style-Form" style="float: left;" type="text" name="LugarNac" id=""
+                    placeholder="Ingrese lugar de nacimiento...">
+
+                <div style="width: 100%;display: flex;justify-content: center;align-items: center; height: 40px;">
+                    <select class="Style-Form" style="float: left;width: 49%;" name="DEPTO">
+                        <option value="TD" disabled selected>DPTO DE NACIMIENTO</option>
+                        <option value="TI">Tarjeta Identidad</option>
+                        <option value="RC">Registro Civil</option>
+                    </select>
+
+                    <select class="Style-Form" style="float: left;width: 49%; margin-left: 1px;" name="CIUDAD">
+                        <option value="TD" disabled selected>CIUDAD NACIMIENTO</option>
+                        <option value="TI">Tarjeta Identidad</option>
+                        <option value="RC">Registro Civil</option>
+                    </select>
+                </div>
+
+
+                <!--Radio de boton de genero-->
+                <div style="width: 100%;display: flex;justify-content: center;align-items: center; height: 40px;">
+                    <font style="font-family: Helvetica, sans-serif; float: left;">Sexo:</font>
+                    <input type="radio" name="Sexo" id="H"
+                        style="float: left; padding-top: 10px; width: 20px;height: 20px;">
+                    <font style="font-family: Helvetica, sans-serif; float: left;">Masculino:</font>
+                    <input type="radio" name="Sexo" id="M"
+                        style="float: left; padding-top: 10px;width: 20px;height: 20px; background: rgb(70, 92, 180);">
+                    <font style="font-family: Helvetica, sans-serif; float: left;">Femenino:</font>
+                </div>
+
+                <input style="width: 100%;border-radius: 30px; margin-bottom: 20px; font-family: Helvetica Neue, Helvetica, sans-serif; font-size: 15px; padding-left: 10px;
+                padding-top: 7px; padding-bottom: 7px; opacity: 0.7;" type="text" name="Diagnostico" id=""
+                    placeholder="Escriba el diagostico del paciente...">
+
+
+                <div style="width: 100%;display: flex;justify-content: center;align-items: center;">
+                    <div
+                        style="width: 40%;display: flex;justify-content: center;align-items: center; border-bottom: 2px solid rgb(70, 92, 180);; height: 20px;">
+                        <font style="color: rgb(70, 92, 180);"><b>VINCULAR ESPECIALISTA</b></font>
+                    </div>
+                </div>
+                <div style="width: 100%;display: flex;justify-content: center;align-items: center; padding-top: 7px;">
+
+                    <input class="Style-Form" style="margin-top: 10px;" type="text" name="FechaNac"
+                        placeholder="Ingrese codigo del especialista..."><br>
+                </div>
+                <div style="width: 100%;display: flex;justify-content: center;align-items: center; padding-top: 0px;">
+                    <button class="Buttom">Verificar</button>
+                    <button class="Buttom" style="margin-left: 4px;">Registralo</button>
+                </div>
+            </div>
+
+
+
+            <div class="Form-Text">
+                <textarea name="bio" id="" cols="30" rows="20" placeholder="Añade algo a la biografia..."></textarea>
+            </div>
+        </div>
+        <div></div>
+        
+    </div>
+    <!--Contenido-->
+    <!-- <section class="Form-Register">
+        <form action="#">
+            <div>Crear perfil de mi hijo</div>
+
+            <div style="width: 100%; padding-left: 30px; padding-right: 30px;padding-top: 20px;">
+
+                <div class="Div-Form-One">
+
+                </div>
+
+                <div class="Div-Form-Two-Three">
+                    <input class="Style-Form" type="text" name="nombre" id="" placeholder="Ingrese un nombre...">
+                    <select class="Style-Form" name="TipoDoc" id="" placeholder="Tipo de documento:">
+                        <option value="TI">Tarjeta Identidad</option>
+                        <option value="RC">Registro Civil</option>
+                    </select>
+                    <input class="Style-Form" type="date" name="FechaNac" id=""
+                        placeholder="Ingrese fecha de nacimiento...">
+                    <font face="Helvetica">Sexo:</font>
+                    <font face="Helvetica">Masculino:</font>
+                    <input type="radio" name="Sexo" id="H">
+                    <font face="Helvetica">Femenino:</font>
+                    <input type="radio" name="Sexo" id="M">
+                </div>
+
+
+                <div class="Div-Form-Two-Three">
+                    <input class="Style-Form" type="text" name="apellidos" id="" placeholder="Ingrese sus apellidos...">
+
+                    <input class="Style-Form" type="text" name="NumeroDoc" id=""
+                        placeholder="Ingrese el número de documento...">
+
+                    <input class="Style-Form" type="text" name="LugarNac" id=""
+                        placeholder="Ingrese lugar de nacimiento...">
+
+                    <input class="Style-Form" type="text" name="Diagnostico" id=""
+                        placeholder="Escriba el diagostico del paciente...">
+                </div>
+                <div class="Div-Form-Four">
+                    <textarea name="bio" id="" cols="20" rows="10" style="border-radius: 20px;"></textarea>
+                </div><br>
+            </div>
+
+        </form>
+    </section> -->
+</body>
+
+</html>
