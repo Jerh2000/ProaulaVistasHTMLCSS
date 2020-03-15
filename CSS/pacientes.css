@@ -1,0 +1,306 @@
+#Menu-Registro-Paciente ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    align-items: center;
+}
+
+body {
+    width: 100%;
+}
+
+.pos {
+    position: relative;
+}
+
+#Menu-Registro-Paciente ul li {
+    display: inline-block;
+}
+
+#Menu-Registro-Paciente ul li a {
+    color: white;
+    display: block;
+    padding: 20px;
+    padding-top: 19px;
+    padding-bottom: 15px;
+    border-spacing: 0px;
+    text-decoration: none;
+}
+
+/*Estilo de los campos de busqueda*/
+
+.style-input-search {
+    position: relative;
+    top: 0px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 0px;
+    border-radius: 20px;
+    width: 200px;
+    height: 25px;
+    margin-right: 3px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-size: 18px;
+    font-family: Helvetica, sans-serif;
+    color: gray;
+}
+
+/*Remarcado cuando se pone el mouse en la barra de menu*/
+
+#Menu-Registro-Paciente ul li a:hover {
+    background-color: white;
+    color: #1c487e;
+}
+
+/*Estilo para el menu inicio*/
+
+li a.active {
+    background-color: #1c487e;
+    color: white;
+}
+
+/*Aqui posiciono los iconos de mensaje usuario y notificacion*/
+
+#Icon-Notification {
+    position: relative;
+    top: 10px;
+}
+
+/*Hover para poner el fondo blanco de icono*/
+
+#Icon-Notification:hover {
+    border-radius: 20px;
+    width: 35px;
+    background-color: white;
+}
+
+#Icon-Message {
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+/*Hover para poner el fondo blanco de icono*/
+
+#Icon-Message:hover {
+    border-radius: 20px;
+    width: 35px;
+    background-color: white;
+}
+
+#Icon-User {
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+
+#Icon-Down {
+    position: relative;
+    top: 4px;
+    left: 5px;
+}
+
+/*Hover para poner el fondo blanco de icono*/
+
+#Icon-User:hover {
+    border-radius: 20px;
+    width: 35px;
+    background-color: white;
+}
+
+/*Estilo para la barra de navegacion con degradado*/
+
+#Menu-Registro-Paciente {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background: -webkit-linear-gradient(top, #6e00ff, #1c487e);
+    width: 100%;
+    border: 0px;
+}
+
+/*Esto es para el menu desplegable en gestion de actividades*/
+
+nav li {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+
+nav li>ul {
+    display: none;
+}
+
+nav li:hover>ul {
+    display: block;
+    position: absolute;
+    background-color: #1c487e;
+    top: 50px;
+    left: 0px;
+}
+.datos_paciente{
+    color: black;
+    width: 500px;
+    height: 310px;
+    position: absolute;
+    border-radius: 15px;
+    z-index: 1;
+    top: 80px;
+    left: 50px;
+}
+
+.encabezado_pacientes{
+    color:white;
+    background-color: #6e00ff;
+    padding-top: 5px;
+    height: 30px;
+    width: 500px;
+    text-align:left;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    position: absolute;
+    top: 80px;
+    left: 50px;
+}
+.foto{
+    position: absolute;
+    top: 50px;
+    left: 30px;
+}
+
+.datos2{
+    position: absolute;
+    top: 50px;
+    left: 130px;
+}
+.datos_paciente2{
+    color: black;
+    width: 500px;
+    height: 310px;
+    position: absolute;
+    border-radius: 15px;
+    z-index: 1;
+    top: 80px;
+    left: 710px;
+    right: 1000px;
+}
+
+.encabezado_pacientes2{
+    color:white;
+    background-color: #6e00ff;
+    padding-top: 5px;
+    height: 30px;
+    width: 500px;
+    text-align:left;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    position: absolute;
+    top: 80px;
+    left: 710px;
+    right: 1000px;
+}
+.foto{
+    position: absolute;
+    top: 50px;
+    left: 30px;
+}
+
+.datos{
+    position: absolute;
+    top: 50px;
+    left: 130px;
+}
+.datos_paciente3{
+    color: black;
+    width: 500px;
+    height: 310px;
+    position: absolute;
+    border-radius: 15px;
+    z-index: 1;
+    top: 450px;
+    left: 50px;
+}
+
+.encabezado_pacientes3{
+    color:white;
+    background-color: #6e00ff;
+    padding-top: 5px;
+    height: 30px;
+    width: 500px;
+    text-align:left;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    position: absolute;
+    top: 450px;
+    left: 50px;
+}
+.foto3{
+    position: absolute;
+    top: 50px;
+    left: 30px;
+}
+
+.datos3{
+    position: absolute;
+    top: 50px;
+    left: 130px;
+}
+.datos_paciente4{
+    color: black;
+    width: 500px;
+    height: 310px;
+    position: absolute;
+    border-radius: 15px;
+    z-index: 1;
+    top: 450px;
+    left: 710px;
+
+}
+
+.encabezado_pacientes4{
+    color:white;
+    background-color: #6e00ff;
+    padding-top: 5px;
+    height: 30px;
+    width: 500px;
+    text-align:left;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    position: absolute;
+    top: 450px;
+    left: 710px;
+
+}
+.foto4{
+    position: absolute;
+    top: 50px;
+    left: 30px;
+}
+
+.datos4{
+    position: absolute;
+    top: 50px;
+    left: 130px;
+}
+#area{
+    position: absolute;
+    top: 230px;
+    left: 30px;
+}
+#area1{
+    position: absolute;
+    top: 230px;
+    left: 30px;
+}
+#area2{
+    position: absolute;
+    top: 230px;
+    left: 30px;
+}
+#area3{
+    position: absolute;
+    top: 230px;
+    left: 30px;
+}

@@ -1,0 +1,198 @@
+.container-Mayor {
+    position: absolute;
+    top: 60px;
+    width: 98%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 0px;
+    padding-left: 40px;
+    padding: 5px;
+}
+
+.container-sup {
+    position: relative;
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 12px;
+    margin-right: 0px;
+    padding: 5px;
+}
+
+.container-inf {
+    position: relative;
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 12px;
+    margin-right: 0px;
+    padding: 5px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.container-graphic-left {
+    position: relative;
+    width: 49%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    float: left;
+}
+
+.container-graphic-right {
+    width: 49%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    float: left;
+}
+
+.container-profile {
+    position: relative;
+    display: block;
+    justify-content: center;
+    border-radius: 20px;
+    border: 1px solid #009881;
+    align-items: flex-start;
+    width: 40%;
+    padding: 3px;
+}
+
+.Header-Profile {
+    position: relative;
+    height: 30px;
+    background: #009881;
+    width: 98%;
+    padding-top: 7px;
+    margin-top: 6px;
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-bottom: 0px;
+    padding-left: 5px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.Photo-Profile {
+    width: 29%;
+    float: left;
+    margin: 2px;
+    display: block;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.Information-Patient {
+    width: 69%;
+    float: left;
+    margin: 2px;
+}
+
+.container-files {
+    position: relative;
+    display: block;
+    justify-content: center;
+    align-items: flex-start;
+    width: 14%;
+    margin: 2px;
+    padding: 3px;
+}
+
+* {
+    font-size: 15px;
+    font-family: Helvetica, sans-serif;
+}
+
+.container-activities {
+    position: relative;
+    display: block;
+    justify-content: center;
+    align-items: flex-start;
+    width: 40%;
+    margin: 2px;
+    padding: 3px;
+    border-radius: 20px;
+    border: 1px solid #009881;
+}
+
+.Table-Activities {
+    width: 98%;
+    margin: 6px;
+    margin-top: 0px;
+    border: 1px solid #009881;
+    height: 235px;
+}
+
+.Table-Activities td, th {
+    border: 1px solid #009881;
+    margin: 0px;
+    padding: 3px;
+}
+
+.Buttom {
+    color: white;
+    border: none;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    font-family: Helvetica, sans-serif;
+    background: -webkit-linear-gradient(top, #009881, #5C6EB6);
+    margin-top: 15px;
+    margin-right: 9px;
+}
+
+button:hover {
+    background: #009881;
+    cursor: pointer;
+}
+
+.container-graphic-pastel {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin-left: -80px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 70px;
+    border-radius: 20px;
+    border: 1px solid #009881;
+    
+}
+
+.container-graphic-lineal {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    padding-left: 80px;
+    padding-right: 30px;
+    margin-right: 0px;
+    margin-left: 70px;
+    border-radius: 20px;
+    border: 1px solid #009881;
+    font-size: 14px;
+    font-style: normal;
+    color: white;
+}
+
+.head-lineal {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 90%;
+    background-color: #009881;
+    border-radius: 20px 20px 0px 0px;
+    padding-left: 5px;
+    padding-left: 15px;
+    height: 30px;
+}
+
+body {
+    background: -webkit-linear-gradient(top, #69FCFF, #54E8C1);
+    background-repeat: no-repeat;
+}

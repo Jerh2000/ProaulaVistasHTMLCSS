@@ -79,6 +79,7 @@
     border: 1px solid #009881;
     position: absolute;
     left: 10%;
+    top: 40px;
     background: -webkit-linear-gradient(top, #61a79c, rgb(144, 153, 189));
     border-radius: 0px 0px 20px 20px;
 }
@@ -86,6 +87,7 @@
 .Head-Form {
     position: absolute;
     left: 10%;
+    top: 40px;
     border-radius: 20px 20px 0px 0px;
     display: flex;
     width: 83.5%;
