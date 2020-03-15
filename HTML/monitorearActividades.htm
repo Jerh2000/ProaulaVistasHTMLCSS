@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitorear Actividades</title>
+    <link rel="stylesheet" href="../CSS/estilos1.css">
+    <link rel="shortcut icon" href="../IMAGES/img/logoamapa.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="barra_nav"><a href="#"><img src="../IMAGES/img/Home-Icon-Black.png" alt="Inicio">&nbsp;Inicio</a></li>
+                <li class="barra_nav"><a href="#"><img src="../IMAGES/img/Myson-Black.png" alt="Pacientes">&nbsp;Pacientes</a></li>
+                <li class="barra_nav"><a href="#"><img src="../IMAGES/img/Activity-Black.png" alt="Gestión de actividades">&nbsp;Gestión de actividades</a></li>
+                <li class="barra_nav"><a href="#"><img src="../IMAGES/img/report-Black.png" alt="Reportes">&nbsp;Reportes</a></li>
+                <li class="barra_nav"><a href="#"><img src="../IMAGES/img/Resource-Black.png" alt="Recursos">&nbsp;Recursos</a></li>
+                <li class="barra_nav"><a href="#"><img src="../IMAGES/img/Contatc-Black.png" alt="Contáctanos">&nbsp;Contáctanos</a></li>
+                <li>
+                    <input type="text" name="buscar" id="buscar" placeholder=" Buscar...">
+                    <!--<input type="image" src="img/search.png" alt="Buscar" width="30">-->
+                </li>
+                <li class="barra_nav"><img src="../IMAGES/img/bell.png" alt="Notificaciones" width="30"></li>
+                <li class="barra_nav"><img src="../IMAGES/img/menssage.png" alt="Mensajes" width="30"></li>
+                <li>
+                    <div class="barra_nav">
+                        <p style="padding:0">
+                            <img src="../IMAGES/img/child.png" alt="Perfil" width="30">
+                            &nbsp; Andrés
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div>
+        <table class="pacientes" align="center" cellpadding="10">
+            <tr>
+                <th bgcolor="#6e00ff" style="color:white">Pacientes</th>
+            </tr>
+            <tr>
+                <td><input type="text" name="buscar" id="buscar" placeholder=" Busca un paciente..."></td>
+            </tr>
+            <tr>
+                <td class="item_paciente"><img src="../IMAGES/img/niña1.png" alt="" width="35">
+                    Camila F</td>
+            </tr>
+            <tr>
+                <td class="item_paciente"><img src="../IMAGES/img/niña2.png" alt="" width="35">
+                    María C</td>
+            </tr>
+            <tr>
+                <td class="item_paciente"><img src="../IMAGES/img/niño1.png" alt="" width="35">
+                    José R</td>
+            </tr>
+            <tr>
+                <td class="item_paciente"><img src="../IMAGES/img/niña3.png" alt="" width="35">
+                    Viviana H</td>
+            </tr>
+            <tr>
+                <td class="item_paciente"><img src="../IMAGES/img/niño2.png" alt="" width="35">
+                    Felipe G</td>
+            </tr>
+            <tr>
+                <td class="item_paciente"><img src="../IMAGES/img/niño3.png" alt="" width="35">
+                    Dario H</td>
+            </tr>
+            <tr>
+                <td class="item_paciente"><img src="../IMAGES/img/niña4.png" alt="" width="35">
+                    Julieta M</td>
+            </tr>
+            <tr>
+                <td class="item_paciente"><img src="../IMAGES/img/niño1.png" alt="" width="35">
+                    Mario V</td>
+            </tr>
+            <tr>
+                <td class="item_paciente"><img src="../IMAGES/img/niña1.png" alt="" width="35">
+                    Clara G</td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <div class="encabezado_pacientes">
+            <font><b>&nbsp; DATOS DEL PACIENTE</b></font>
+        </div>
+        <table class="datos_paciente" frame="box" width="400" height="300">
+            <tr align="center">
+                <td class="foto"><img src="../IMAGES/img/user.png" alt="" width="80"></td>
+                <td>
+                    <table class="datos">
+                        <tr>
+                            <td>Nombre: </td>
+                            <td>Julieta Paola</td>
+                        </tr>
+                        <tr>
+                            <td>Apellidos: </td>
+                            <td>Martínez Ramírez</td>
+                        </tr>
+                        <tr>
+                            <td>Nº de identificación: </td>
+                            <td>1.010.526.321</td>
+                        </tr>
+                        <tr>
+                            <td>Código paciente: </td>
+                            <td>000052</td>
+                        </tr>
+                        <tr>
+                            <td>Ciudad: </td>
+                            <td>Cartagena</td>
+                        </tr>
+                        <tr>
+                            <td>Tipo de TEA: </td>
+                            <td>Heller</td>
+                        </tr>
+                        <tr>
+                            <td>Edad: </td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Nombre del acudiente: </td>
+                            <td>Katia Ramírez Palacios</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <div class="actividades">
+            Actividades asignadas: <br> 54
+        </div>
+        <div class="logros_alcanzados">
+            Logros alcanzados: <br> 35
+        </div>
+    </div>
+    <div class="encabezado_actividades">
+        <font><b>&nbsp; ACTIVIDADES ASIGNADAS</b></font>
+        <table class="actividades_asignadas" frame="box" width="400" height="300">
+            <tr align="center" bgcolor="#3f51b5">
+                <td style="color:white">Estado</td>
+                <td style="color:white">Nombre</td>
+                <td style="color:white">Fecha</td>
+                <td style="color:white">Visualizar</td>
+            </tr>
+            <tr align="center" bgcolor="#e3cbfd" style="color:#3f51b5">
+                <td><input type="checkbox" name="lenguaje" id="lenguaje" checked></td>
+                <td>Lenguaje</td>
+                <td>12/02/20</td>
+                <td><img src="../IMAGES/img/view.png" alt="" width="20"></td>
+            </tr>
+            <tr align="center" bgcolor="#f5f5f5" style="color:#3f51b5">
+                <td><input type="checkbox" name="lecto" id="lecto"></td>
+                <td>Lecto-escritura</td>
+                <td>01/04/20</td>
+                <td><img src="../IMAGES/img/view.png" alt="" width="20"></td>
+            </tr>
+            <tr align="center" bgcolor="#e3cbfd" style="color:#3f51b5">
+                <td><input type="checkbox" name="fisio" id="fisio" checked></td>
+                <td>Fisioterapia</td>
+                <td>23/10/20</td>
+                <td><img src="../IMAGES/img/view.png" alt="" width="20"></td>
+            </tr>
+            <tr align="center" bgcolor="#f5f5f5" style="color:#3f51b5">
+                <td><input type="checkbox" name="musica" id="musica" checked></td>
+                <td>Musicalidad</td>
+                <td>15/12/20</td>
+                <td><img src="../IMAGES/img/view.png" alt="" width="20"></td>
+            </tr>
+        </table>
+    </div>
+    <div class="avance">
+        <h2 style="color:#3f51b5">Su avance en: 
+        <select name="avance" id="select_avance">
+            <option>Lenguaje</option>
+            <option>Musicalidad</option>
+            <option>Lecto-escritura</option>
+            <option>Fisioterapia</option>
+            <option>Escritura</option>
+            <option>Expresión artística</option>
+        </select></h2><br>
+        <table class="avance_paciente" frame="box" width="400" height="300">
+            <tr>
+                <td><img src="../IMAGES/img/stadistics.PNG" alt="" width="380" height="280"></td>
+            </tr>
+        </table>
+    </div>
+    <div class="ver_multimedia">
+        <button>
+            <img src="../IMAGES/img/report.png" alt="" width="35"><br>
+            Ver contenido multimedia anexado 
+        </button>
+    </div>
+    <div class="agregar_observacion">
+        <button>
+            <img src="../IMAGES/img/video.png" alt="" width="35"><br>
+            Agregar observación
+        </button>
+    </div>
+    <div class="observaciones_actividad" align="center">
+        <h2 style="color:#3f51b5">Observaciones de la actividad</h2><br>
+        <p>Lorem ipsum dolor sit amet consectetur, 
+            adipisicing elit. Iste aliquam voluptatem 
+            sit vitae deleniti earum ipsa officia quisquam 
+            officiis, nesciunt praesentium iure delectus unde
+            suscipit. Non sapiente ea soluta maiores.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, 
+            adipisicing elit. Iste aliquam voluptatem 
+            sit vitae deleniti earum ipsa officia quisquam 
+            officiis, nesciunt praesentium iure delectus unde
+            suscipit. Non sapiente ea soluta maiores.</p>
+        <p>Lorem ipsum dolor sit amet consectetur,                 
+            adipisicing elit. Iste aliquam voluptatem 
+            sit vitae deleniti earum ipsa officia quisquam 
+            officiis, nesciunt praesentium iure delectus unde
+            suscipit. Non sapiente ea soluta maiores.</p>                
+    </div>
+</body>
+</html>

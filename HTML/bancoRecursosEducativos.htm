@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banco de Recursos Educativos</title>
+    <link rel="stylesheet" href="../CSS/estilos2.css">
+    <link rel="shortcut icon" href="../IMAGES/img/img/logoamapa.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="barra_nav"><a href="#"><img src="../IMAGES/img/Home-Icon-Black.png" alt="Inicio">&nbsp;Inicio</a></li>
+                <li class="barra_nav"><a href="#"><img src="../IMAGES/img/Myson-Black.png" alt="Pacientes">&nbsp;Pacientes</a></li>
+                <li class="barra_nav"><a href="#"><img src="../IMAGES/img/Activity-Black.png" alt="Gestión de actividades">&nbsp;Gestión de actividades</a></li>
+                <li class="barra_nav"><a href="#"><img src="../IMAGES/img/report-Black.png" alt="Reportes">&nbsp;Reportes</a></li>
+                <li class="barra_nav"><a href="#"><img src="../IMAGES/img/Resource-Black.png" alt="Recursos">&nbsp;Recursos</a></li>
+                <li class="barra_nav"><a href="#"><img src="../IMAGES/img/Contatc-Black.png" alt="Contáctanos">&nbsp;Contáctanos</a></li>
+                <li>
+                    <input type="text" name="buscar" id="buscar" placeholder=" Buscar...">
+                    <!--<input type="image" src="img/search.png" alt="Buscar" width="30">-->
+                </li>
+                <li class="barra_nav"><img src="../IMAGES/img/bell.png" alt="Notificaciones" width="30"></li>
+                <li class="barra_nav"><img src="../IMAGES/img/menssage.png" alt="Mensajes" width="30"></li>
+                <li>
+                    <div class="barra_nav">
+                        <p style="padding:0">
+                            <img src="../IMAGES/img/child.png" alt="Perfil" width="30">
+                            &nbsp; Andrés
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <br>
+    <h1 align="center" style="color:#3f51b5">Banco de Recursos Educativos</h1><br>
+    <div class="banco">
+        <div class="musicalidad" align="center"> 
+            <img src="../IMAGES/img/musicalidad.png" alt="" width="80"><br>
+            <font style="color:#3f51b5">Musicalidad</font>
+        </div>
+        <div class="lectura" align="center"> 
+            <img src="../IMAGES/img/lectura.png" alt="" width="80"><br>
+            <font style="color:#3f51b5">Lectura</font>
+        </div>
+        <div class="expresion_artistica" align="center"> 
+            <img src="../IMAGES/img/arte.png" alt="" width="80"><br>
+            <font style="color:#3f51b5">Expresión artística</font>
+        </div>
+        <div class="fisioterapia" align="center"> 
+            <img src="../IMAGES/img/fisioterapia.png" alt="" width="80"><br>
+            <font style="color:#3f51b5">Fisioterapia</font>
+        </div>
+        <div class="escritura" align="center"> 
+            <img src="../IMAGES/img/escritura.png" alt="" width="80"><br>
+            <font style="color:#3f51b5">Escritura</font>
+        </div>
+        <div class="lenguaje" align="center"> 
+            <img src="../IMAGES/img/lenguaje.png" alt="" width="80"><br>
+            <font style="color:#3f51b5">Lenguaje</font>
+        </div>
+        <div class="back">
+            <img src="../IMAGES/img/backleft.png" alt="" width="40">
+        </div>
+        <div class="next">
+            <img src="../IMAGES/img/nextright.png" alt="" width="40">
+        </div>
+    </div>
+    <br>
+    <button class="agregar">Agrega recursos de apoyo</button>
+    <br>
+    <div class="cuadro" frame="box">
+        <div class="imagen">
+            <img src="../IMAGES/img/panel.PNG" alt="" width="400" height="280">
+        </div>
+        <div class="formulario" align="center">
+            <h3 style="color:#3f51b5;border-bottom: 1px solid darkgray;">Llena el formulario</h3>
+            <input type="text" name="nombre_recurso" id="nombre_recurso" placeholder=" Nombre del recurso...">
+            <select name="habilidad" id="select_habilidad">
+                <option>Selecciona la habilidad a trabajar</option>
+                <option>Lenguaje</option>
+                <option>Musicalidad</option>
+                <option>Lecto-escritura</option>
+                <option>Fisioterapia</option>
+                <option>Escritura</option>
+                <option>Expresión artística</option>
+            </select>
+            <div class="fecha">
+                <font style="color:#3f51b5">* Fecha &nbsp;&nbsp;&nbsp;</font>
+                <input type="date" name="start" id="start" value="2020-03-14">
+            </div>
+            <textarea name="descripcion" id="descripcion" cols="30" rows="8" placeholder=" Ahora describe el recurso..."></textarea>
+            <button class="guardar">Guárdalo</button>
+        </div>
+    </div>
+</body>
+</html>

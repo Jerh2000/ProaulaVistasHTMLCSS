@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/StyleHeaderCoAc.css">
+    <link rel="stylesheet" href="../CSS/StyleFormCoAc.css">
+    <link rel="stylesheet" href="../CSS/Graphics.css">
+    <title>Consultar actividades</title>
+</head>
+
+<body>
+    <div style="z-index: 2; position: absolute; top: 0px; left: 0px; width: 100%;">
+        <div id="Menu-Registro-Paciente">
+            <nav>
+                <ul id="menu">
+                    <li><a class="active" href="#"><img src="../IMAGES/Icons/Home-Icon.png" alt="Inicio"> Inicio</a>
+                    </li>
+                    <li><a href="#"><img src="../IMAGES/Icons/Myson.png" alt="Mihijo"> Mi hijo</a></li>
+                    <li><a href="#"><img src="../IMAGES/Icons/Activity-Black.png" alt="Activity"> Gestión de
+                            actividades</a>
+                        <ul>
+                            <li><a href="#">Link 1sadsdsds</a></li>
+                            <li><a href="#">Link 2sdsdsdsd</a></li>
+                        </ul>
+                    </li>
+                    </<li>
+                    <li><a href="#"><img src="../IMAGES/Icons/report-Black.png" alt="Reportes"> Reportes</a></li>
+                    <li><a href="#"><img src="../IMAGES/Icons/Resource-Black.png" alt="Recursos"> Recursos</a></li>
+                    <li><a href="#"><img src="../IMAGES/Icons/Contatc-Black.png" alt="Contactanos"> Contactanos</a></li>
+                    <li><input type="text" placeholder="Buscar..." class="style-input-search"> </<input>
+                    </li>
+                    <span class="pos">
+                        <li><input type="image" src="../IMAGES/Icons/Notification-On-1.png" alt="Notificaciones"
+                                id="Icon-Notification"></<input>
+                        </li>
+                        <li><input type="image" src="../IMAGES/Icons/Message-Icon-1.png" alt="Message"
+                                id="Icon-Message"></li>
+                        <li><input type="image" src="../IMAGES/Icons/User-Icon.png" alt="Message" id="Icon-User"></li>
+                        <li style="margin-left: 20px;"><a href="#">User<input type="image"
+                                    src="../IMAGES/Icons/Option-Icon.png" alt="Down" id="Icon-Down"></a></li>
+                    </span>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!--Contenido-->
+    <div class="container-Mayor">
+        <div class="container-sup">
+            <div class="container-profile">
+                <div class="Header-Profile"><img src="../IMAGES/Icons/Myson-Black.png" alt="User-Icon">
+                    <font style="font-family:Helvetica, sans-serif; font-size: 15px;">Mi perfil</font>
+                </div>
+                <div style="width: 98%; display: flex; justify-content: center; align-items: center; margin: 6px; margin-top: 0px; margin-bottom:0px; background: -webkit-linear-gradient(top, #a0bdb8, rgb(187, 194, 221));border-radius: 0px 0px 20px 20px;">
+                    <div class="Photo-Profile">
+                        <!--ProfilePhoto-->
+                        <div
+                            style="width: 100%;display: flex;justify-content: center;align-items: center; padding-top: 0px;">
+                            <img src="../IMAGES/Icons/User-Picture.png" alt="ProfilePicture">
+                        </div>
+                    </div>
+                    <div class="Information-Patient" >
+                        <!--InformationPatient-->
+                        <div style="float: left; margin: 7px;">
+                            <font style="font-family:Helvetica, sans-serif; font-size: 15px;">Codigo Paciente:</font>
+                            <br>
+                            <font style="font-family:Helvetica, sans-serif; font-size: 15px;">Nombre:</font><br>
+                            <font style="font-family:Helvetica, sans-serif; font-size: 15px;">Apellidos:</font><br>
+                            <font style="font-family:Helvetica, sans-serif; font-size: 15px;">Tipo Documento:</font><br>
+                            <font style="font-family:Helvetica, sans-serif; font-size: 15px;">N° Documento:</font><br>
+                            <font style="font-family:Helvetica, sans-serif; font-size: 15px;">Ciudad:</font><br>
+                            <font style="font-family:Helvetica, sans-serif; font-size: 15px;">Diagnostico:</font><br>
+                            <font style="font-family:Helvetica, sans-serif; font-size: 15px;">Edad:</font><br>
+                            <font style="font-family:Helvetica, sans-serif; font-size: 15px;">Nombre del cuidador:
+                            </font>
+                        </div>
+                        <div style="float: left; margin: 7px;">
+                            <font style="font-family:Helvetica, sans-serif; font-size: 15px;">Codigo Paciente</font><br>
+                            <font style="font-family:Helvetica, sans-serif; font-size: 15px;">Nombre</font><br>
+                            <font style="font-family:Helvetica, sans-serif; font-size: 15px;">Apellidos</font><br>
+                            <font style="font-family:Helvetica, sans-serif; font-size: 15px;">Tipo Documento</font><br>
+                            <font style="font-family:Helvetica, sans-serif; font-size: 15px;">N° Documento</font><br>
+                            <font style="font-family:Helvetica, sans-serif; font-size: 15px;">Ciudad</font><br>
+                            <font style="font-family:Helvetica, sans-serif; font-size: 15px;">Diagnostico</font><br>
+                            <font style="font-family:Helvetica, sans-serif; font-size: 15px;">Edad</font><br>
+                            <font style="font-family:Helvetica, sans-serif; font-size: 15px;">Nombre del cuidador</font>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    style="width: 98%; display: flex; justify-content: center; align-items: center; margin: 6px; margin-top: 0px;">
+                    <button class="Buttom">Actividades asignadas <br> 30</button>
+                    <button class="Buttom">Logros alcanzados <br>23</button>
+                </div>
+
+            </div>
+            <div class="container-files">
+                <div style="border: 1px solid #5ab4a5; border-radius: 20px; margin-bottom: 0px;">
+                <div
+                    style="width: 93%; display: flex; justify-content: center; align-items: center; margin: 6px; margin-top: 0px; ">
+                    <input type="image" src="../IMAGES/Icons/Files.png" alt="Files">
+                </div>
+                <div
+                    style="width: 93%; display: flex; justify-content: center; align-items: center; margin: 6px; margin-top: 0px; ">
+                    <font style="text-align: center; font-family:Helvetica, sans-serif; font-size: 15px;">Ver Contenido
+                        <br> multimedia anexado</font>
+                </div></div>
+                <div style="border: 1px solid #5ab4a5; border-radius: 20px; margin-bottom: 0px;">
+                <div
+                    style="width: 93%; display: flex; justify-content: center; align-items: center; margin: 6px; margin-top: 0px;">
+                    <input type="image" src="../IMAGES/Icons/observations.png" alt="Observations">
+                </div>
+                <div
+                    style="width: 93%; display: flex; justify-content: center; align-items: center; margin: 6px; margin-top: 0px;">
+                    <font style="text-align: center; font-family:Helvetica, sans-serif; font-size: 15px;">Ver
+                        observaciones <br> de especialistas</font>
+                </div>
+                </div>
+            </div>
+            <!--Divisor-->
+            <div class="container-activities">
+                <div class="Header-Profile"><img src="../IMAGES/Icons/Myson-Black.png" alt="User-Icon">
+                    <font style="font-family:Helvetica, sans-serif; font-size: 15px;">Mi perfil</font>
+                </div>
+
+                <table class="Table-Activities">
+                    <tr style="background-color: #b0f8ed;">
+                        <th>Tarea</th>
+                        <th>Fecha Asignación</th>
+                        <th>Recurso asignado</th>
+                        <th>Visualizar</th>
+                    </tr>
+                    <tr style="background-color: #c8d6fd;">
+                        <td><input type="checkbox" name="act1" id="_checkbox">Tarea 1</td>
+                        <td align="center">04/05/2019</td>
+                        <td align="center"><input type="image" src="../IMAGES/Icons/Camera-Source.png" alt="Source">
+                        </td>
+                        <td align="center"><input type="image" src="../IMAGES/Icons/View.png" alt="View"></td>
+                    </tr>
+                    <tr style="background-color: #b0f8ed;">
+                        <td><input type="checkbox" name="act2" id="">Tarea 2</td>
+                        <td align="center">04/05/2019</td>
+                        <td align="center"><input type="image" src="../IMAGES/Icons/Camera-Source.png" alt="Source">
+                        </td>
+                        <td align="center"><input type="image" src="../IMAGES/Icons/View.png" alt="View"></td>
+                    </tr>
+                    <tr style="background-color: #c8d6fd;">
+                        <td><input type="checkbox" name="act3" id="">Tarea 3</td>
+                        <td align="center">04/05/2019</td>
+                        <td align="center"><input type="image" src="../IMAGES/Icons/Camera-Source.png" alt="Source">
+                        </td>
+                        <td align="center"><input type="image" src="../IMAGES/Icons/View.png" alt="View"></td>
+                    </tr>
+                    <tr style="background-color: #b0f8ed;">
+                        <td><input type="checkbox" name="act4" id="">Tarea 4</td>
+                        <td align="center">04/05/2019</td>
+                        <td align="center"><input type="image" src="../IMAGES/Icons/Camera-Source.png" alt="Source">
+                        </td>
+                        <td align="center"><input type="image" src="../IMAGES/Icons/View.png" alt="View"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <!--Container Down-->
+        <div class="container-inf">
+            <div class="container-graphic-left">
+                <div class="container-graphic-pastel">
+                    <div class="container" style="display:flex;justify-content: center;align-items: center; width:90%;">
+                        <!-- DONUT CHART BLOCK (LEFT-CONTAINER) -->
+                        <div class="donut-chart-block block" style="margin-top: 0px; width: 90%;">
+                            <h2 class="titular">FORTALEZAS</h2>
+                            <div class="donut-chart">
+                                <div id="porcion1" class="recorte">
+                                    <div class="quesito ios" data-rel=""></div>
+                                </div>
+                                <div id="porcion2" class="recorte">
+                                    <div class="quesito mac" data-rel=""></div>
+                                </div>
+                                <div id="porcion3" class="recorte">
+                                    <div class="quesito win" data-rel=""></div>
+                                </div>
+                                <div id="porcionFin" class="recorte">
+                                    <div class="quesito linux" data-rel=""></div>
+                                </div>
+                                <!-- FIN AÑADIDO GRÄFICO -->
+                                <p class="center-date">MARZO<br><span class="scnd-font-color">2019</span></p>
+                            </div>
+                            <ul class="os-percentages horizontal-list">
+                                <li>
+                                    <p class="ios os scnd-font-color" style="font-size: 11px;">LENGUAJE</p>
+                                    <p class="os-percentage">21<sup>%</sup></p>
+                                </li>
+                                <li ">
+                                <p class=" mac os scnd-font-color" style="font-size: 10px;">INTERACCIÓN</p>
+                                    <p class="os-percentage">39<sup>%</sup></p>
+                                </li>
+                                <li>
+                                    <p class="linux os scnd-font-color" style="font-size: 11px;">CONDUCTA</p>
+                                    <p class="os-percentage">9<sup>%</sup></p>
+                                </li>
+                                <li>
+                                    <p class="win os scnd-font-color" style="font-size: 11px;">VISUAL</p>
+                                    <p class="os-percentage">31<sup>%</sup></p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Graficos lineales-->
+            <div class="container-graphic-right">
+                <div class="container-graphic-lineal">
+                    <div class="head-lineal">
+                        EVOLUCIÓN</div>
+                    <div class="line-chart-block block" style="width: 90%; margin-top: 0px;">
+                        <div class="line-chart">
+                            <div class='grafico' style="width: 100%;">
+                                <ul class='eje-y' style="height: 100%;">
+                                    <li data-ejeY='30'></li>
+                                    <li data-ejeY='20'></li>
+                                    <li data-ejeY='10'></li>
+                                    <li data-ejeY='0'></li>
+                                </ul>
+                                <ul class='eje-x'>
+                                    <li>Apr</li>
+                                    <li>May</li>
+                                    <li>Jun</li>
+                                </ul>
+                                <span data-valor='25'>
+                                    <span data-valor='8'>
+                                        <span data-valor='13'>
+                                            <span data-valor='5'>
+                                                <span data-valor='23'>
+                                                    <span data-valor='12'>
+                                                        <span data-valor='15'>
+                                                        </span></span></span></span></span></span></span>
+                            </div>
+
+                        </div>
+                        <ul class="time-lenght horizontal-list">
+                            <li><a class="time-lenght-btn" href="#14">Week</a></li>
+                            <li><a class="time-lenght-btn" href="#15">Month</a></li>
+                            <li><a class="time-lenght-btn" href="#16">Year</a></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</body>
+
+</html>
